@@ -1,0 +1,366 @@
+.page-wrapper{
+    display: inline-flex;
+    flex-wrap: wrap;
+    columns: 12;
+}
+
+.pageHeader{
+    color: #8B3CE6;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    /* font-family: IBM Plex Sans; */
+}
+
+@media(min-width: 350){
+    .textSectionWrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 2;
+    }
+}
+@media(min-width: 500){
+    .textSectionWrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+        order: 2;
+    }
+}
+@media(min-width: 768){
+    .textSectionWrapper{
+        order: 1;
+    }
+}
+@media(min-width: 920){
+    .textSectionWrapper{
+        order: 1;
+    }
+}
+
+.textSectionWrapper{
+    margin-left: 10%;
+}
+
+.sectionOneHeader{
+    color: #001D30;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;   
+}
+
+.sectionOnePTag{
+    text-align: left;
+    color: #001D30;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 165%;
+}
+
+.accordionHeaderStyle{
+    background-color: white;
+    border: none;
+}
+
+.accordionToggleStyle{
+    text-align: left;
+    background-color: white;
+    box-shadow: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+}
+
+/* .accordionArrow{ */
+        /* Arrow */
+/* position: absolute; */
+/* left: 0%;
+right: 0%;
+top: 118.18%;
+bottom: -118.18%; */
+
+/* Orca */
+/* background: #001D30;
+transform: rotate(-90deg);
+} */
+
+.accordionCardStyle{
+    border: none;
+}
+
+.multimediaHeader{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 146.28%;
+    color: #8B3CE6;
+}
+
+.multimediaPTag{
+    text-align: left;
+    color: #001D30;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 165%;
+}
+
+.arrow img{
+    display: none;
+}
+
+.arrow:hover img{
+    display: block;
+
+}
+
+.learnMoreButton{
+/* Button 2020 */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+
+position: absolute;
+width: 124px;
+height: 31px;
+left: 122px;
+top: 759px;
+
+/* Betta */
+background: #8B3CE6;
+border-radius: 100px;
+
+
+/* Learn More */
+
+position: static;
+left: 19.35%;
+right: 19.35%;
+top: 19.35%;
+bottom: 19.35%;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 124%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Albatross */
+color: #FFFFFF;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+
+}
+
+.hoverArrow{
+    /* Arrow */
+
+position: absolute;
+width: 11px;
+height: 11px;
+
+/* Albatross */
+background: #FFFFFF;
+
+}
+.learnMoreButton:hover {
+/* Rectangle 40 */
+position: absolute;
+width: 99px;
+height: 30px;
+
+/* Orca */
+background: #001D30;
+border-radius: 100px;
+
+position: static;
+left: 19.35%;
+right: 19.35%;
+top: 19.35%;
+bottom: 19.35%;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 124%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Albatross */
+color: #FFFFFF;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+.downArrow{
+    background-image: url(../assets/downArrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.upArrow{
+    background-image: url(../assets/upArrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(min-width: 200px){
+    .flex{
+        flex-direction: column-reverse;
+    }
+}
+@media(min-width: 500px){
+    .flex{
+        flex-direction: row;
+    }
+}
+
+
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    object-fit: "contain" !important;
+    background-repeat: no-repeat;
+    /* height: 100%;
+    width:100%;*/
+} 
+
+/* Deliver better business outcomes through richer sourced data, stronger relationships with employees, and compelling stories that increase internal engagement and success. */
+
+/* position: absolute;
+width: 466px;
+height: 84px;
+left: 122px;
+top: 655px; */
+
+/* Paragraph */
+/* font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 165%; */
+/* or 28px */
+
+/* Orca */
+/* color: #001D30; */
+
+
+/* Collect and Ingest Richer Employee Feedback */
+
+/* position: absolute;
+width: 500px;
+height: 21px;
+left: 122px;
+top: 630px; */
+
+/* H6 */
+/* font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 146.28%; */
+/* or 19px */
+
+/* Betta */
+/* color: #8B3CE6; */
+
+
+ /* employee experience */
+
+  /*  position: absolute;
+  width: 190px;
+   height: 21px;
+   left: 122px;
+   top: 99px;
+
+   /* H5 */
+  /* // font-family: IBM Plex Sans;
+  // font-style: normal;
+  // font-weight: 600;
+  // font-size: 15px;
+  // line-height: 23px;
+  // text-transform: uppercase; */
+
+   /* Betta */
+   /* color: #8B3CE6; */ 
+
+   /* Increase Your Wealth of Employee Knowledge */
+
+/* position: absolute;
+width: 466px;
+height: 21px;
+left: 122px;
+top: 131px;
+
+/* H3 */
+/* font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 146.28%; */
+/* or 41px */
+
+/* Orca */
+/* color: #001D30; */
+
+/* Happy employees equal trustworthy and proactive employees. However, trust takes time and in order to build relationships with your employees, you must make them feel valued. Employee intelligence will allow you to see what is most important to them and your business. */
+
+/* position: absolute;
+width: 466px;
+height: 84px;
+left: 122px;
+top: 228px; */
+
+/* Paragraph */
+/* font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 165%; */
+/* or 28px */
+
+/* Orca */
+/* color: #001D30; */
+
+
+/* Button */
+/* 
+position: absolute;
+width: 82px;
+height: 24px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px; */
+/* line-height: 165%; */
+/* or 23px */
+/* display: flex;
+align-items: center;
+text-align: center; */
+
+/* Albatross */
+/* color: #FFFFFF; */
